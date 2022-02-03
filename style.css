@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+    background-color: #DCDCDC;
+    width: 90%;
+    margin: auto;
+}
+
+.container>p {
+    margin-bottom: 1px;
+}
+.container>input {
+    margin-top: 0px;
+    margin-bottom: 1px;
+    width: 250px;
+}
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+.ortala{
+    float: left;
+    margin: 0.3%;
+}
+
+
+#box1{
+    background-color: rgb(71, 187, 187);
+    width: 39%;
+    margin: 1 auto;
+    
+}
+
+#box1>p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#box2{
+    background-color: rgb(29, 185, 185);
+    width: 19%;
+    margin: 1 auto;
+    padding: 0px;
+}
+
+ #box2>ul {
+    list-style-type: none;
+    margin-top: 1px;
+} 
+
+#box3{
+    background-color: rgb(10, 175, 175);
+    width: 39%;
+    margin: 1 auto;
+    padding: 1px;
+}
+
+#box3>p {
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.footer {
+    height: 100;
+    clear: left;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#box1,#box2,#box3 {
+    height: 83px;
+}
+
